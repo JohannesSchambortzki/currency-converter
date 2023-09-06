@@ -1,33 +1,17 @@
 @media (max-width: 768){
    body{
-      background-color: rgb(255, 255, 255);
-  }
-  h1{
-      font-family: sans-serif;
-      color: black;
-  }
-  p{
-      font-family: sans-serif;
-      color: black;
-  }
-  label{
-      font-family: sans-serif;
-      color: black;
-  }
-}
-
-body{
-   background-color: rgb(15, 15, 15);
+      background-color: rgb(33, 32, 34);
    }
-h1{
-   font-family: sans-serif;
-   color: white;
-}
-p{
-   font-family: sans-serif;
-   color: white;
-}
-label{
-   font-family: sans-serif;
-   color: white;
+   h1{
+      font-family: sans-serif;
+      color: white;
+   }
+   p{
+      font-family: sans-serif;
+      color: white;
+   }
+   label{
+      font-family: sans-serif;
+      color: white;
+   }
 }
