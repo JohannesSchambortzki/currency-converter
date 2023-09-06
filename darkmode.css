@@ -1,17 +1,17 @@
 @media (max-width: 768){
-   body{
-      background-color: rgb(39, 39, 39);
-  }
-  h1{
-      font-family: sans-serif;
-      color: white;
-  }
-  p{
-      font-family: sans-serif;
-      color: white;
-  }
-  label{
-      font-family: sans-serif;
-      color: white;
-  }
+    body{
+        background-color: rgb(22, 22, 22);
+    }
+    h1{
+        font-family: sans-serif;
+        color: white;
+    }
+    p{
+        font-family: sans-serif;
+        color: white;
+    }
+    label{
+        font-family: sans-serif;
+        color: white;
+    }
 }
