@@ -1,0 +1,11 @@
+.color-scheme-dark{
+    background-color: rgb(30, 29, 31);
+    font-family: sans-serif;
+    color: white;
+}
+.color-scheme-light
+{
+    background-color: white;
+    font-family: sans-serif;
+    color: black;
+}

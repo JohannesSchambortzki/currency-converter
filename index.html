@@ -3,11 +3,11 @@
 
 <head>
    <title>Currency Converter</title>
-   <link id="style-link" rel="stylesheet" href="darkmode.css">
+   <link id="style-link" rel="stylesheet" href="style.css">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
 
-<body>
+<body class = "color-scheme-dark" id="body">
 <div>
       <button id="change-color-button">Change Color Scheme</button>
 </div>
@@ -56,15 +56,13 @@
       var convertButton = document.getElementById("convertButton");
 
       document.getElementById("change-color-button").addEventListener("click", function () {
-            var styleLink = document.getElementById("style-link");
-                  if (styleLink.getAttribute("href") === "darkmode.css")
-                  {
-                        styleLink.setAttribute("href", "lightmode.css");
-                  } 
-                  else 
-                  {
-                        styleLink.setAttribute("href", "darkmode.css");
-                  }
+            let body = document.getElementById("body")
+            if (body.className === "color-scheme-dark")
+            {
+                  body.className = "color-scheme-light"
+            }
+            else
+            body.className = "color-scheme-dark"
       })       
 
       const currency =
