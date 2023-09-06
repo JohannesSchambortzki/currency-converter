@@ -1,4 +1,19 @@
 @media (max-width: 768){
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    h1{
+        font-family: sans-serif;
+        color: black;
+    }
+    p{
+        font-family: sans-serif;
+        color: black;
+    }
+    label{
+        font-family: sans-serif;
+        color: black;
+    }
 }
 
 body{
