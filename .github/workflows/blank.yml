@@ -4,16 +4,14 @@ on:
   push:
     branches:
       - main
+      - gh-pages
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
+    runs-on: beevelop/cordova
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
       - name: Execute Custom Build Script
-        run: |
-          chmod +x ./script.sh
-          ./script.sh        # Execute the script
+        run:  /bin/bash -c "cd /root/shared-volume/MyApp/ && yes n | cordova run android && send "n\r" && touch hello"
